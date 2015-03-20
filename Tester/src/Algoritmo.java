@@ -3,6 +3,11 @@ import javax.sound.midi.Sequence;
 
 public class Algoritmo {
 	
+	
+	
+	
+	
+	
 	public static void main(String args[]){
 		Algoritmo alg = new Algoritmo(); 
 		System.out.println(alg.getLogStringQuery("    ProxyOverride    REG_SZ    192.168.3.1:3128 localhost gw11 127.0.0.0 127.0.0.1 cs100 cs200 cs300 cs400 cs500 cs600 cs700 cs900 gw13 <local>"));
