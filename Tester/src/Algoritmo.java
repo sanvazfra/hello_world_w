@@ -4,7 +4,7 @@ import javax.sound.midi.Sequence;
 public class Algoritmo {
 	
 	public static void main(String args[]){
-		Algoritmo alg = new Algoritmo();
+		Algoritmo alg = new Algoritmo(); 
 		System.out.println(alg.getLogStringQuery("    ProxyOverride    REG_SZ    192.168.3.1:3128 localhost gw11 127.0.0.0 127.0.0.1 cs100 cs200 cs300 cs400 cs500 cs600 cs700 cs900 gw13 <local>"));
 		//System.out.println(alg.getLogStringQuery("    ProxyOverride    REG_SZ    <local>192.168.3.8;192.168.5.1"));
 		//System.out.println(alg.getLogStringQuery("    ProxyOverride    REG_SZ    localhost;gw11;127.0.0.0;127.0.0.1;cs100;cs200;cs300;cs400;cs500;cs600;cs700;cs900;gw13;<local>"));
